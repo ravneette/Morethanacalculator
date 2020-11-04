@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Calculator.css">
+</head>
+
+<body>
+    <script src="Calculator.js"></script>
+
+        <div class="emptySpace"> </div>
+        <div class = title > More than a Calculator</div>                
+        <div class = "activeSpace"> 
+            <div class="calculator">
+                <div class = "calcCol1"> </div>
+                <div class = "calcCol2"> 
+                    
+                    <table border="1", align="center">
+                    <tr>
+                        <td><input type="button" value="clr" id='asdasd' onclick="clear2()"/> </td>
+                        <td colspan="3"><input type="text" id="edu"/></td>
+                    <!-- clr() function will call clr to clear all value -->
+                    </tr>
+                
+                    <tr>
+                    <!-- creating buttons and assigning values-->
+                        <td><input type="button" value="+" onclick="dis('+')"/> </td>
+                        <td><input type="button" value="1" onclick="dis('1')"/> </td>
+                        <td><input type="button" value="2" onclick="dis('2')"/> </td>
+                        <td><input type="button" value="3" onclick="dis('3')"/> </td>
+                    </tr>
+                
+                    <tr>
+                        <td><input type="button" value="-" onclick="dis('-')"/> </td>
+                        <td><input type="button" value="4" onclick="dis('4')"/> </td>
+                        <td><input type="button" value="5" onclick="dis('5')"/> </td>
+                        <td><input type="button" value="6" onclick="dis('6')"/> </td>
+                    </tr>
+                
+                    <tr>
+                        <td><input type="button" value="*" onclick="dis('*')"/> </td>
+                        <td><input type="button" value="7" onclick="dis('7')"/> </td>
+                        <td><input type="button" value="8" onclick="dis('8')"/> </td>
+                        <td><input type="button" value="9" onclick="dis('9')"/> </td>
+                    </tr>
+                
+                    <tr>
+                        <td><input type="button" value="/" onclick="dis('/')"/> </td>
+                        <td><input type="button" value="." onclick="dis('.')"/> </td>
+                        <td><input type="button" value="0" onclick="dis('0')"/> </td>
+                        <!-- Evaluating function call eval()-->
+                        <td><input type="button" value="=" onclick="calculate()"/> </td>
+                    </tr>
+            
+                </table>
+                </div>
+                <div class = calcCol3 > </div>
+            </div>
+
+
+            
+            <div class = screen > 
+        
+                <p id=displayText> <p>
+
+            </div>
+        
+        </div>
+
+        
+    </body>
+    
+      
+    
+
+</body>
+
+</html>

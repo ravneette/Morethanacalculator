@@ -1,20 +1,33 @@
 .title{
 border-radius: 10px;
-margin-bottom: 10px;
+margin-bottom: 40px;
+font: 25px Arial, sans-serif;    
 text-align:center;
-width: 210px;
-color:#ff4456;
+color:#080001;
 border: solid black 1px;
 }
+
+
+.screen{border-radius: 15px;
+    height: 300px;
+    background-color: rgba(19, 16, 18, 0.801);
+    color:#ffffff;
+    border: solid black 4px;
+    font: 70px Arial, sans-serif;    
+    flex: 3;
+}
+
 
 input[type="button"]
 {
 border-radius: 10px;
-background-color:#ff4456;
+background-color:#ffffff;
 color: black;
-border-color:#ff4456 ;
+border-color:#0c2a00 ;
 width:100%;
+font-size: 24px;
 }
+
 
 input[type="text"]
 {
@@ -24,3 +37,71 @@ background-color:rgb(222, 218, 218);
 border-color: black ;
 width:100%
 }
+
+.emptySpace{
+    height: 100px;
+}
+
+
+.activeSpace{
+    height: 300px;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+}
+
+.calculator{
+    background: #0c2a00;
+    display: flex; /* Standard syntax */
+    flex: 3; /* Standard syntax */
+}
+
+.calcCol1{
+    background-color: #ffffff;
+    flex: 1;
+
+}
+
+.calcCol2{
+
+    background-color: #0c2a00;
+    flex: 3;
+    margin-top: 20px;
+
+}
+
+
+.calcCol3{
+    background-color: #ffffff;
+    flex: 1;
+}
+
+
+
+.subSideCol1{
+    flex: 1; /* Standard syntax */
+    background-color: #ffffff;
+}
+
+.subSideCol2 {
+    flex: 1; /* Standard syntax */
+    background-color:black;
+}
+
+.subCol2{
+    display: flex; /* Standard syntax */
+    height: 150px;
+    background-color: red;
+}
+
+.column2{
+    background: #ffffff;
+    flex: 1; /* Standard syntax */
+}
+
+
+.column3{
+    background: #07223d;
+    flex: 3; /* Standard syntax */
+}
+
+

@@ -10,6 +10,8 @@ function calculate()
 let x = document.getElementById("edu").value
 let y = eval(x)
 document.getElementById("edu").value = y
+document.getElementById("displayText").innerHTML = y
+
 }
 
 
@@ -20,6 +22,7 @@ We just need a void in between the quotes to perform this function.
 function clear2()
 {
 document.getElementById("edu").value = " "
+document.getElementById("displayText").innerHTML = " "
 }
 
 
@@ -31,6 +34,7 @@ document.getElementById("edu").value = " "
 
 function dis(val)
 {
-document.getElementById("edu").value+=val
+    document.getElementById("edu").value+=val
+    document.getElementById("displayText").innerHTML=document.getElementById("edu").value;
 }
 
